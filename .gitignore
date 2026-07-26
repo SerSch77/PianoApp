@@ -1,0 +1,12 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/settings.json
+
+# Live Server
+.vscode/
+
+# GitHub Pages build artifacts (if any later)
+_dist/
