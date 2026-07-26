@@ -9,7 +9,7 @@ const COLORS = {
   whiteDefault: '#fffff0',
   blackDefault: '#1a1a1a',
   whitePressed: '#c8c0a8',
-  blackPressed: '#444',
+  blackPressed: '#777',
 };
 
 const keys = new Map();

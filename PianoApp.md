@@ -40,14 +40,14 @@ An app that helps you learn to sight-read music
 
 ## Plan
 
-### Stage 1 — Scaffold & Static Piano
+### Stage 1 ✅ — Scaffold & Static Piano
 *Deliverable: on-screen 88-key piano renders at the bottom of the page.*
-- [ ] Create `index.html`, `style.css`, `app.js` skeleton
-- [ ] Generate 88-key piano via JS (white/black keys, correct layout)
-- [ ] Key coloring via JS (ivory/black default; pressed indication)
-- [ ] Responsive layout for Full HD (1920×1080), piano fixed at bottom
-- [ ] Verify with VS Code Live Server
-- [ ] Commit: `git add -A && git commit -m "Stage 1: scaffold + static piano"`
+- [x] Create `index.html`, `style.css`, `app.js` skeleton
+- [x] Generate 88-key piano via JS (white/black keys, correct layout)
+- [x] Key coloring via JS (ivory/black default; pressed indication)
+- [x] Responsive layout for Full HD (1920×1080), piano fixed at bottom
+- [x] Verify with VS Code Live Server
+- [x] Commit: `git add -A && git commit -m "Stage 1: scaffold + static piano"`
 
 ### Stage 2 — MIDI Input
 *Deliverable: connecting a MIDI keyboard lights up on-screen keys; chords work.*
