@@ -47,6 +47,7 @@ An app that helps you learn to sight-read music
 - [ ] Key coloring via JS (ivory/black default; pressed indication)
 - [ ] Responsive layout for Full HD (1920×1080), piano fixed at bottom
 - [ ] Verify with VS Code Live Server
+- [ ] Commit: `git add -A && git commit -m "Stage 1: scaffold + static piano"`
 
 ### Stage 2 — MIDI Input
 *Deliverable: connecting a MIDI keyboard lights up on-screen keys; chords work.*
@@ -55,6 +56,7 @@ An app that helps you learn to sight-read music
 - [ ] Map MIDI note numbers to on-screen piano keys
 - [ ] Light up pressed keys from MIDI input; dim on release
 - [ ] Chord support (simultaneous note events in the same tick)
+- [ ] Commit: `git add -A && git commit -m "Stage 2: MIDI input"`
 
 ### Stage 3 — Sheet Music Rendering
 *Deliverable: load a MusicXML file via file picker and see it rendered above the piano.*
@@ -62,6 +64,7 @@ An app that helps you learn to sight-read music
 - [ ] File picker button (no drag-and-drop)
 - [ ] Render MusicXML into a `<div>` above the piano
 - [ ] Layout: top bar area → sheet music → piano
+- [ ] Commit: `git add -A && git commit -m "Stage 3: sheet music rendering"`
 
 ### Stage 4 — Settings Bar
 *Deliverable: top bar with all controls functional (but modes not yet wired to note matching).*
@@ -71,6 +74,7 @@ An app that helps you learn to sight-read music
 - [ ] Bar range start / end number inputs
 - [ ] Key-color help toggle (shows/hides legend)
 - [ ] Styling for the top bar
+- [ ] Commit: `git add -A && git commit -m "Stage 4: settings bar"`
 
 ### Stage 5 — Cursor & Sheet Coloring
 *Deliverable: cursor advances through the sheet; notes in the sheet are colored to match correctness.*
@@ -78,6 +82,7 @@ An app that helps you learn to sight-read music
 - [ ] Render a cursor/indicator on the current measure in OSMD
 - [ ] Color notes in the sheet using OSMD coloring API
 - [ ] Reset cursor on file load or bar range change
+- [ ] Commit: `git add -A && git commit -m "Stage 5: cursor + sheet coloring"`
 
 ### Stage 6 — Modes & Note Matching
 *Deliverable: wait mode and play-along mode work with correct/incorrect visual feedback on piano + sheet.*
@@ -88,6 +93,7 @@ An app that helps you learn to sight-read music
 - [ ] Piano key colors: blue (left correct), green (right correct), red (incorrect), dimmed for un-checked hands
 - [ ] Sheet note colors mirror the piano key colors
 - [ ] Bar range loop: only play / evaluate within the selected range
+- [ ] Commit: `git add -A && git commit -m "Stage 6: modes + note matching"`
 
 ### Stage 7 — Polish, Errors & Deploy
 *Deliverable: production-ready app with proper edge-case handling.*
@@ -96,3 +102,4 @@ An app that helps you learn to sight-read music
 - [ ] MIDI device disconnected → fall back gracefully (show warning)
 - [ ] Full HD / Kiosk mode layout verification
 - [ ] GitHub Pages deployment prep (relative paths, no Live Server dependency)
+- [ ] Commit: `git add -A && git commit -m "Stage 7: polish, errors, deploy"`

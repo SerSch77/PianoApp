@@ -22,6 +22,11 @@ This is a **pre-implementation** project. No code, dependencies, or tooling have
 - Musical notation (not waterfall)
 - Live server via VS Code initially; GitHub Pages later
 
+## Git Workflow
+
+- Commit at the end of each stage (or more often). Every commit must leave the app in a working state.
+- Stage 1 is already committed as `417c2ec`.
+
 ## Implementation Stages
 
 The project is planned in 7 sequential stages (see `PianoApp.md`):

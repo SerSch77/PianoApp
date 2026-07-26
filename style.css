@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #1a1a2e;
+  color: #eee;
+  font-family: system-ui, sans-serif;
+  overflow: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#top-bar {
+  height: 40px;
+  flex-shrink: 0;
+}
+
+#sheet-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-state {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+#piano {
+  height: 180px;
+  flex-shrink: 0;
+  position: relative;
+  background: #111;
+  border-top: 2px solid #333;
+}
+
+.white-keys {
+  display: flex;
+  height: 100%;
+}
+
+.white-key {
+  flex: 1 0 0;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 0 0 4px 4px;
+}
+
+.white-key:last-child {
+  border-right: none;
+}
+
+.black-keys {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 58%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.black-key {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1.25%;
+  pointer-events: auto;
+  cursor: pointer;
+  border-radius: 0 0 3px 3px;
+  z-index: 2;
+}
